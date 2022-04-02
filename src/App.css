@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +38,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.input__small{
+  width: 75%;
+}
+
+.modal-footer{
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-body__content{
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-body__opening{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.home__btn{
+  width: 80px;
+  height: 40px;
 }
